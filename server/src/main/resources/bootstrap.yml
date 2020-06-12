@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  security:
+    user:
+      name: root
+      password: s3cr3t
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sandersoncoelho/app-config-file
+          clone-on-start: true
+
+encrypt:
+  keyStore:
+    location: classpath:/config-server.jks
+    password: s3cr3t
+    alias: config-server-key
+    secret: s3cr3t
