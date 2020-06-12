@@ -6,6 +6,6 @@ in profiles, allows micro services access it. Also, it shows one possible securi
 ## Requirements
 
 * Java 11
-* Gradle 5.5
+* Gradle 6.6
 
 
